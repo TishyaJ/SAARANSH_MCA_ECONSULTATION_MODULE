@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Project Saaransh Design System - Government Professional Theme */
+
+@layer base {
+  :root {
+    /* Base colors - Professional government theme */
+    --background: 0 0% 100%;
+    --foreground: 220 15% 25%;
+
+    /* Card system */
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 25%;
+    --card-hover: 214 32% 97%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 25%;
+
+    /* Government blue primary colors */
+    --primary: 215 100% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 215 100% 45%;
+    --primary-dark: 215 100% 25%;
+
+    /* Secondary - Professional gray */
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 15% 25%;
+    --secondary-hover: 220 15% 92%;
+
+    /* Muted colors */
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    /* Accent - Government highlight */
+    --accent: 45 100% 55%;
+    --accent-foreground: 220 15% 25%;
+
+    /* Status colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --warning: 45 100% 55%;
+    --warning-foreground: 220 15% 25%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --info: 215 100% 50%;
+    --info-foreground: 0 0% 100%;
+
+    /* Form elements */
+    --border: 220 15% 88%;
+    --input: 220 15% 96%;
+    --input-border: 220 15% 78%;
+    --ring: 215 100% 50%;
+
+    /* Government gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 100% 35%), hsl(215 100% 45%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 15% 96%), hsl(220 15% 92%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 55%), hsl(50 100% 65%));
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(220 15% 25% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 15% 25% / 0.1), 0 2px 4px -1px hsl(220 15% 25% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(220 15% 25% / 0.1), 0 4px 6px -2px hsl(220 15% 25% / 0.05);
+    --shadow-government: 0 8px 25px -5px hsl(215 100% 35% / 0.2);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Spacing */
+    --radius: 0.75rem;
+
+    /* Sidebar specific */
+    --sidebar-background: 215 25% 97%;
+    --sidebar-foreground: 220 15% 35%;
+    --sidebar-primary: 215 100% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 15% 92%;
+    --sidebar-accent-foreground: 220 15% 25%;
+    --sidebar-border: 220 15% 88%;
+    --sidebar-ring: 215 100% 50%;
+  }
+
+  .dark {
+    /* Dark theme for Project Saaransh - Maintained for system compatibility */
+    --background: 215 25% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 215 25% 10%;
+    --card-foreground: 0 0% 95%;
+    --card-hover: 215 25% 12%;
+
+    --popover: 215 25% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 215 100% 60%;
+    --primary-foreground: 215 25% 8%;
+    --primary-light: 215 100% 70%;
+    --primary-dark: 215 100% 50%;
+
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --secondary-hover: 215 20% 18%;
+
+    --muted: 215 20% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 45 100% 60%;
+    --accent-foreground: 215 25% 8%;
+
+    --success: 142 76% 50%;
+    --success-foreground: 215 25% 8%;
+    --warning: 45 100% 60%;
+    --warning-foreground: 215 25% 8%;
+    --destructive: 0 72% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --info: 215 100% 65%;
+    --info-foreground: 215 25% 8%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 15%;
+    --input-border: 215 20% 25%;
+    --ring: 215 100% 60%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(215 100% 50%), hsl(215 100% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(215 20% 15%), hsl(215 20% 18%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 55%), hsl(50 100% 65%));
+
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.3);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -1px hsl(0 0% 0% / 0.2);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -2px hsl(0 0% 0% / 0.2);
+    --shadow-government: 0 8px 25px -5px hsl(215 100% 30% / 0.3);
+
+    --sidebar-background: 215 25% 6%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 215 100% 60%;
+    --sidebar-primary-foreground: 215 25% 8%;
+    --sidebar-accent: 215 20% 12%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 215 20% 18%;
+    --sidebar-ring: 215 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Government typography improvements */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-foreground;
+    letter-spacing: -0.025em;
+  }
+
+  /* Smooth animations for government app */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0; 
+      transform: translateY(20px); 
+    }
+    to { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+  /* Custom scrollbar for government app */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
