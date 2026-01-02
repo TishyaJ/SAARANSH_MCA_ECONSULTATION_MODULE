@@ -18,21 +18,21 @@ Saaransh revolutionizes public policy consultation by combining civic engagement
 ---
 
 ### Admin Dashboard - Analytics Overview
-<img src="photos/rolebased.png" alt="Admin Dashboard" width="800"/>
+<img src="photos/rolebased.jpeg" alt="Admin Dashboard" width="800"/>
 
 *Real-time sentiment analysis and stakeholder breakdown across all consultations*
 
 ---
 
 ### AI-Powered Summaries
-<img src="photos/summary.png" alt="AI Generated Summaries" width="800"/>
+<img src="photos/summary.jpeg" alt="AI Generated Summaries" width="800"/>
 
 *Hierarchical summarization with overall, positive, and negative insights*
 
 ---
 
 ### Minister Dashboard - Executive View
-<img src="photos/minister.png" alt="Minister Dashboard" width="800"/>
+<img src="photos/minister.jpeg" alt="Minister Dashboard" width="800"/>
 
 *Executive-level insights with sentiment trends and top comments*
 
