@@ -479,7 +479,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **SYNTAX_SAVANTS** - Team ID: 111498
 
-This project was built during the **Smart India Hackathon (SIH) 2024 Grand Finale** under the guidance of the **Ministry of Corporate Affairs**.
+This project was built during the **Smart India Hackathon (SIH) 2025 Grand Finale** under the guidance of the **Ministry of Corporate Affairs**.
 
 ### Team Members
 
