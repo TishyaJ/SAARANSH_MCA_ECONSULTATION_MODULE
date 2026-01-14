@@ -479,6 +479,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **SYNTAX_SAVANTS** - Team ID: 111498
 
+This project was built during the **Smart India Hackathon (SIH) 2024 Grand Finale** under the guidance of the **Ministry of Corporate Affairs**.
+
+### Team Members
+
+- **Tishya Jha** - Custom dataset creation & presentation, Deployment of Final Expert Sentiment Model and Summarisation and WordCloud models via FastAPI
+- **Yuvraj Singh** - FastAPI integration & full-stack development
+- **Aarna Kumar** - Training and Development of ML Models
+- **Ishaan Saxena** - UI/UX design & frontend development
+- **Abhay Raj** - Backend development
+- **Ritik Lodhi** - Frontend & backend support
+
 ## 🙏 Acknowledgments
 
 - Research paper that served as baseline for sentiment analysis
